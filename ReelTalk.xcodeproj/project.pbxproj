@@ -11,6 +11,7 @@
 		F68B98CD2B2F7F6E00A185A8 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F68B98CC2B2F7F6E00A185A8 /* ContentView.swift */; };
 		F68B98CF2B2F7F7000A185A8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F68B98CE2B2F7F7000A185A8 /* Assets.xcassets */; };
 		F68B98D22B2F7F7000A185A8 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F68B98D12B2F7F7000A185A8 /* Preview Assets.xcassets */; };
+		F68B98DE2B3643F700A185A8 /* WelcomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F68B98DD2B3643F700A185A8 /* WelcomeView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		F68B98CC2B2F7F6E00A185A8 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		F68B98CE2B2F7F7000A185A8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F68B98D12B2F7F7000A185A8 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		F68B98DD2B3643F700A185A8 /* WelcomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +53,7 @@
 		F68B98C92B2F7F6E00A185A8 /* ReelTalk */ = {
 			isa = PBXGroup;
 			children = (
+				F68B98DC2B36436600A185A8 /* Views */,
 				F68B98CA2B2F7F6E00A185A8 /* ReelTalkApp.swift */,
 				F68B98CC2B2F7F6E00A185A8 /* ContentView.swift */,
 				F68B98CE2B2F7F7000A185A8 /* Assets.xcassets */,
@@ -65,6 +68,14 @@
 				F68B98D12B2F7F7000A185A8 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		F68B98DC2B36436600A185A8 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				F68B98DD2B3643F700A185A8 /* WelcomeView.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,6 +149,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F68B98CD2B2F7F6E00A185A8 /* ContentView.swift in Sources */,
+				F68B98DE2B3643F700A185A8 /* WelcomeView.swift in Sources */,
 				F68B98CB2B2F7F6E00A185A8 /* ReelTalkApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
